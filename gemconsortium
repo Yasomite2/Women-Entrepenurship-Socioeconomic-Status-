@@ -3,3 +3,4 @@ load_savfile <- read_spss("/pathto/file.sav")
 saveascsv <- write.csv(load_savfile, file = "/pathto/newfile.csv", row.names = FALSE)
 load_csvfile <- read.csv("/pathto/newfile.csv")
 
+
